@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Telegram Mini App</title>
+  <!-- Tag Script -->
+  <script src="https://doakosteceet.net/act/files/tag.min.js?z=8445700" data-cfasync="false" async></script>
+</head>
+<body>
+  <h1>Welcome to our Telegram Mini App</h1>
+  
+  <!-- Button to show rewarded ad -->
+  <button onclick="showRewardedAd()">Show Rewarded Ad</button>
+
+  <script>
+    // Function to show the ad
+    function showRewardedAd() {
+      show_8445700().then(function() {
+        // Ad shown successfully
+        console.log("Ad shown successfully!");
+        // Implement reward logic here (e.g., give user points, access, etc.)
+      }).catch(function(error) {
+        // Handle error if ad fails to show
+        console.error("Error showing ad: ", error);
+      });
+    }
+  </script>
+</body>
+</html>
+  
