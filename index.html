@@ -8,20 +8,23 @@
   <script src="https://doakosteceet.net/vignette.min.js" data-zone="8445700" data-sdk="show_8445700"></script>
 </head>
 <body>
-  <h1>Welcome to our Telegram Mini App</h1>
+  <h1>OVIK Telegram Mini App</h1>
+ 
+  <!-- Button to show rewarded ad -->
+  <button onclick="showRewardedAd()">Show Rewarded Ad</button>
 
   <script>
-    // Function to show the ad automatically when the page loads
-    window.onload = function() {
+    // Function to show the ad
+    function showRewardedAd() {
       show_8445700().then(function() {
         // Ad shown successfully
         console.log("Ad shown successfully!");
-        // Implement reward logic here (e.g., give user points, access, etc.)
+        // Implement reward logic here
       }).catch(function(error) {
         // Handle error if ad fails to show
         console.error("Error showing ad: ", error);
       });
-    };
+    }
   </script>
 </body>
 </html>
